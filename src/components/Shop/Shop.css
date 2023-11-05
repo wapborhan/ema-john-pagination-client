@@ -10,9 +10,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
-.proceed-link{
+
+.proceed-link {
     text-decoration: none;
 }
+
 .btn-proceed {
     background: #FF9900;
     width: 90%;
@@ -24,4 +26,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0 30px 0;
+}
+
+.pagination .active {
+    background: #FF9900;
 }
